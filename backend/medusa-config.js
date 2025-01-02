@@ -29,7 +29,7 @@ loadEnv(process.env.NODE_ENV, process.cwd());
 const medusaConfig = {
   projectConfig: {
     databaseUrl: DATABASE_URL,
-    databaseLogging: false,
+    databaseLogging: true,
     redisUrl: REDIS_URL,
     workerMode: WORKER_MODE,
     http: {
